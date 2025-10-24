@@ -46,11 +46,23 @@
                 </p>
                 <div class="hero-actions">
                     <button class="btn-primary">Contact Us</button>
-                    <div class="video-intro">
+                    <div class="video-intro" id="watchVideoBtn">
                         <div class="play-btn">
                             <img src="./assets/play-icon.svg" width="15px" alt="Menu Icon" />
                         </div>
                         <span class="play-btn-label">Watch our introduction video</span>
+                    </div>
+                    <div id="videoModal" class="modal">
+                        <div class="modal-content">
+                            <span class="video-close">&times;</span>
+                            <div class="video-container">
+                                <iframe id="youtubeVideo" width="560" height="315" src="" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
