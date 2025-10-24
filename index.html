@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logique Frontend Assessment</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <img src="./assets/power-logo.svg" alt="Power Logo" />
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Products</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle Menu">
+                <img src="./assets/menu-icon.svg" width="25px" alt="Menu Icon" />
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME HERO -->
+        <section class="hero container">
+            <div class="hero-content">
+                <h1>
+                    We Design Impactful<br />
+                    <span class="text-dark">Digital</span>
+                    <span class="highlighted">Products</span>
+                </h1>
+                <p class="hero-desc">
+                    Help find solutions with intuitive and in accordance with client business goals.
+                    We provide a high-quality service.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn-primary">Contact Us</button>
+                    <div class="video-intro">
+                        <div class="play-btn">
+                            <img src="./assets/play-icon.svg" width="15px" alt="Menu Icon" />
+                        </div>
+                        <span class="play-btn-label">Watch our introduction video</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./assets/home-hero.png" alt="Hero Illustration" />
+            </div>
+        </section>
+
+        <!-- PARTNERS -->
+        <section class="partners-section">
+            <div class="partners-container">
+                <h2>Trusted By Greatest Companies</h2>
+                <div class="partners-logos">
+                    <img src="assets/google-logo.svg" alt="Google" />
+                    <img src="assets/airbnb-logo.svg" alt="Airbnb" />
+                    <img src="assets/cm-logo.svg" alt="Creative Market" />
+                    <img src="assets/shopify-logo.svg" alt="Shopify" />
+                    <img src="assets/amazon-logo.svg" alt="Amazon" />
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUCTS -->
+        <section class="products-section">
+            <div class="products-container">
+                <h2>We Create World-Class Digital Products</h2>
+                <p class="subtitle">
+                    By information about design the world to the best instructors, heatc helping By
+                    information
+                </p>
+                <div class="products-flex">
+                    <div class="product-left">
+                        <div class="product-card">
+                            <img src="assets/product-1.png" alt="App Redesign" />
+                            <span class="product-meta">App Design - June 20, 2022</span>
+                            <h3>App Redesign</h3>
+                            <p>
+                                By information about design the world to the best instructors, heatc helping By
+                                information about design the world to the best instructors.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="product-right">
+                        <div class="product-card">
+                            <img src="assets/product-2.png" alt="Redesign Channel Website" />
+                            <span class="product-meta">App Design - June 20, 2022</span>
+                            <h3>Redesign Channel Website Landing Page</h3>
+                        </div>
+                        <div class="product-card">
+                            <img src="assets/product-3.png" alt="New Locator App" />
+                            <span class="product-meta">App Design - June 20, 2022</span>
+                            <h3>New Locator App For a New Company</h3>
+                        </div>
+                        <div class="product-card">
+                            <img src="assets/product-4.png" alt="Rental Rooms Web App" />
+                            <span class="product-meta">App Design - June 20, 2022</span>
+                            <h3>Rental Rooms Web App Platform</h3>
+                        </div>
+                        <div class="product-card">
+                            <img src="assets/product-5.png" alt="Calendar App" />
+                            <span class="product-meta">App Design - June 20, 2022</span>
+                            <h3>Calendar App for Big SASS Company</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- TESTIMONIAL -->
+        <section class="testimonial-section">
+            <h2>Let's Hear <br /> What They Says</h2>
+            <div class="quotes-wrapper">
+                <img src="assets/quotes-icon.svg" alt="Left quote icon" class="quotes-icon-left">
+                <p class="testimonial-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Risus vel lobortis tincidunt
+                    fames quisque mauris at diam. Nullam morbi ipsum turpis amet id posuere torto
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
+                </p>
+                <img src="assets/quotes-icon.svg" alt="Right quote icon" class="quotes-icon-right">
+            </div>
+            <div class="avatars">
+                <img src="assets/user-avatar.png" alt="User 1">
+                <img src="assets/user-avatar.png" alt="User 2">
+                <img src="assets/user-avatar.png" alt="User 3" class="active">
+                <img src="assets/user-avatar.png" alt="User 4">
+                <img src="assets/user-avatar.png" alt="User 5">
+            </div>
+            <div class="user-info">
+                <h4>Ricky Aprilia</h4>
+                <p>Founder of Varibo</p>
+            </div>
+            <img src="assets/dots-icon.svg" alt="Decorative dots" class="dots-icon">
+        </section>
+
+        <!-- CONTACT US -->
+        <section class="help-section">
+            <div class="help-container">
+                <div class="help-left">
+                    <h2>How We Can Help You</h2>
+                    <p>
+                        Follow our newsletter. We will regularly update our latest project and availability.
+                    </p>
+                    <form class="subscribe-form">
+                        <div class="input-wrapper">
+                            <img src="./assets/email-icon.svg" alt="Mail icon">
+                            <input type="email" placeholder="Enter your email address" required>
+                        </div>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <div class="help-right">
+                    <div class="help-item">
+                        <div class="help-icon">
+                            <img src="./assets/uiux-icon.svg" alt="UI/UX Design">
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Sometimes features require a short description</p>
+                    </div>
+                    <div class="help-item">
+                        <div class="help-icon">
+                            <img src="./assets/logo-branding-icon.svg" alt="Logo Branding">
+                        </div>
+                        <h3>Logo Branding</h3>
+                        <p>Sometimes features require a short description</p>
+                    </div>
+                    <div class="help-item">
+                        <div class="help-icon">
+                            <img src="./assets/app-icon.svg" alt="App Design">
+                        </div>
+                        <h3>App Design</h3>
+                        <p>Sometimes features require a short description</p>
+                    </div>
+                    <div class="help-item">
+                        <div class="help-icon">
+                            <img src="./assets/website-icon.svg" alt="Website Design">
+                        </div>
+                        <h3>Website Design</h3>
+                        <p>Sometimes features require a short description</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-top">
+            <img src="./assets/power-logo-white.svg" alt="Power Logo" />
+            <div class="social-icons">
+                <a href="#"><img src="assets/ig-icon.svg" alt="Instagram"></a>
+                <a href="#"><img src="assets/fb-icon.svg" alt="Facebook"></a>
+                <a href="#"><img src="assets/tw-icon.svg" alt="Twitter"></a>
+                <a href="#"><img src="assets/gh-icon.svg" alt="GitHub"></a>
+            </div>
+        </div>
+        <hr />
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Investors</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Terms of use</a></li>
+                    <li><a href="#">Privacy policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <a href="#" class="contact-btn">Contact Us</a>
+            </div>
+        </div>
+        <div class="footer-copy">
+            <p>&copy; Power 2021 - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
