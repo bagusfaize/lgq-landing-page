@@ -28,7 +28,7 @@ Follow these steps to get a copy of the project running on your local machine.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YourUsername/lgq-shop-explorer.git
+    https://github.com/bagusfaize/lgq-shop-explorer.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
