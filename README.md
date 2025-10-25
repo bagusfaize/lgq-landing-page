@@ -17,6 +17,6 @@ Since this is a vanilla HTML/CSS/JS project, you don't need a build step or loca
 
 1.  **Clone the repo:**
     ```bash
-    git clone [https://github.com/YourUsername/lgq-landing-page.git](https://github.com/YourUsername/lgq-landing-page.git)
+    git clone https://github.com/bagusfaize/lgq-landing-page.git
     ```
 2.  **Open `index.html`** in your web browser.
